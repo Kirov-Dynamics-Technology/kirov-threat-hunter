@@ -22,6 +22,19 @@ Thumbs.db
 iocs/collections/*.json
 hunts/active/*.lock
 
+# Environment
+.env.local
+.env.production
+
+# Logs
+*.log
+
+# Dependencies
+node_modules/
+
+# Vercel
+.vercel
+
 # Docker
 docker-compose.override.yml
 
